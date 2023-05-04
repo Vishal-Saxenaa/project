@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:   'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    padding: 0.5rem 0.7rem;
+    text-decoration: none;
+}
+
+a:hover{
+    background:#680808;
+    border-radius: 0.25rem;
+}
+.navbar{
+    background-color: #686909;
+    color: #fcf6f6;
+    display: flex; 
+    justify-content: space-between;
+    padding: 1rem;
+    position: fixed;
+    width: 100% ;
+    z-index: 1000;
+    
+    
+}
+.links{ 
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+.links > a{
+    color: #faf4f4;
+    margin-left: 0.5rem;
+    font-size: 1.25ram;
+}
+.brand-show{
+    background: url(./photos/joanna-kosinska-1_CMoFsPfso-unsplash.jpg) no-repeat center;
+    opacity: 0.7;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    color:  #300303;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.heading{
+    font-size: xx-large;
+}
+
+.discription{
+    font-size: large;
+}
+
+.courses{
+padding: 1rem;
+background-color: #d6d578;
+}
+
+.courses h2{
+text-align: center;
+}
+
+.item-container{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+}
+
+article h3{
+    padding: 0.5rem;
+  color:#300303;
+}
+.footer{
+    background-color: #686909;
+    color: #fcf6f6;
+    padding: 1rem;
+    text-align: center;
+
+}
